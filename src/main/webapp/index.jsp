@@ -11,5 +11,5 @@
 		You are coming from 
 		<%= request.getRemoteAddr()  %></p>
 	<p>  some changes in here.... </p>
-	<p> get ip address of the machine <%= InetAddress.getLocalHost() %> </p>
+	<p> get ip address of the machine <%= request.getLocalAddr() %> </p>
 </body>
